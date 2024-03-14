@@ -1,0 +1,25 @@
+@font-face{
+    font-family: "im-ue";
+    src: url("./IBMPlexSansKR-Medium.ttf");
+}
+
+.one{
+    background-color: red;
+    z-index: 200;
+    width: 100px;
+    height: 100px;
+}
+
+.one:hover{
+    background-color: black;
+}
+
+.in:checked ~ .one{
+    background-color: rgb(40, 100, 0);
+}
+
+p{
+    font-family: "im-ue";
+    font-weight: 900;
+    font-size: 100px;
+}
